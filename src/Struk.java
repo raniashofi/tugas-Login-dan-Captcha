@@ -87,6 +87,7 @@ public class Struk {
         return "rania123".equals(username) && "12345".equals(password) && "Rania Shofi".equals(nama);
     }
 
+    // Method generate random 6 digit captcha
     private static String generateCaptcha() {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
